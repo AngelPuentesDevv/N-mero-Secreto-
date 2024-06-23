@@ -2,7 +2,8 @@
 let numeroSecreto = 5;
 let numeroUsuario = 0;
 let intentos = 1;
-let palabraVeces = "vez";
+//let palabraVeces = "vez";
+let maximosIntentos = 2;
 
 //Uso de ciclo para que el jugador tenga intentos ilimitados
 while (numeroSecreto != numeroUsuario) {
@@ -14,7 +15,9 @@ while (numeroSecreto != numeroUsuario) {
     //Uso de template string para combinar strings con variables
     //La condición se cumple
     alert(
-      `Acertaste, el número es: ${numeroUsuario} ¡Lo acertaste en ${intentos} ${palabraVeces}!`
+      `Acertaste, el número es: ${numeroUsuario} ¡Lo acertaste en ${intentos} ${
+        intentos == 1 ? "vez" : "veces"
+      }!`
     );
   } else {
     if (numeroUsuario > numeroSecreto) {
@@ -27,8 +30,8 @@ while (numeroSecreto != numeroUsuario) {
     //Se incrementa el contador cuando no se acierta el número
     intentos++;
     palabraVeces = "veces";
-    if (intentos >= 5) {
-      alert(`Llegaste al número máximo de intentos: ${intentos}`);
+    if (intentos > maximosIntentos) {
+      alert(`Llegaste al número máximo de intentos: ${maximosIntentos}`);
       break;
     }
   }
