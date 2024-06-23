@@ -60,4 +60,63 @@ let nombre = prompt("Ingresa tu nombre: ");
 alert(`Bienvenido, ${nombre}!`);
 */
 
+/*
+let contador = 10;
 
+while (contador >= 0) {
+    alert(`contador: ${contador}`);
+    contador--
+}
+*/
+
+/*
+let contador = 1;
+
+while (contador <= 10) {
+    alert(`contador: ${contador}`);
+    contador++
+}
+*/
+
+/*
+let numero = prompt("Ingresa un número:");
+let contador = 0;
+
+while (contador <= numero) {
+    console.log(contador);
+    contador++;
+}
+*/
+
+/*
+let numero = prompt("Ingresa un número desde el cuál iniciar la cuenta regresiva: ");
+
+while (numero >= 0) {
+    console.log(numero);
+    numero--;
+}
+*/
+
+/*
+let edad = 15;
+let tieneLicencia = true;
+
+// si la edad es mayor de 18 y tiene una licencia...
+if (edad > 18 && tieneLicencia) {
+    console.log("Puede conducir!");
+} else {
+    console.log("No puede conducir!");
+}
+*/
+
+/*
+let tieneManzana = false;
+let tieneBanana = false;
+
+// si tiene manzana o tiene banama…
+if (tieneManzana|| tieneBanana) {
+    console.log("Tienes frutas!");
+} else {
+    console.log("No tienes frutas.");
+}
+*/
