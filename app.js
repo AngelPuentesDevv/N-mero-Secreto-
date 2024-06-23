@@ -2,6 +2,7 @@
 let numeroSecreto = 5;
 let numeroUsuario = 0;
 let intentos = 1;
+let palabraVeces = "vez";
 
 //Uso de ciclo para que el jugador tenga intentos ilimitados
 while (numeroSecreto != numeroUsuario) {
@@ -13,7 +14,7 @@ while (numeroSecreto != numeroUsuario) {
     //Uso de template string para combinar strings con variables
     //La condición se cumple
     alert(
-      `Acertaste, el número es: ${numeroUsuario} ¡Lo acertaste en ${intentos} intentos!`
+      `Acertaste, el número es: ${numeroUsuario} ¡Lo acertaste en ${intentos} ${palabraVeces}!`
     );
   } else {
     if (numeroUsuario > numeroSecreto) {
@@ -25,5 +26,6 @@ while (numeroSecreto != numeroUsuario) {
     //alert("No has acertado el número");
     //Se incrementa el contador cuando no se acierta el número
     intentos++;
+    palabraVeces = "veces";
   }
 }
