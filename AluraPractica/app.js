@@ -120,3 +120,112 @@ if (tieneManzana|| tieneBanana) {
     console.log("No tienes frutas.");
 }
 */
+
+/*
+console.log("Bienvenido! Programador Angel.")
+ */
+
+/*
+let nombre = "Angel";
+console.log(`¡Hola, ${nombre}!`);
+*/
+
+/*
+let nombre = "Angel";
+alert(`¡Hola, ${nombre}!`);
+ */
+
+/*
+let lenguajeFavorito = prompt("¿Cuál es el lenguaje de programación que más te gusta?");
+
+console.log(`El lenguaje favorito del usuario es: ${lenguajeFavorito}`);
+ */
+
+/*
+let num1 = Math.floor(Math.random()*10)+1;
+let num2 = Math.floor(Math.random()*10)+1;
+let resultado = num1 + num2;
+
+console.log(`El resultado es: ${resultado}`);
+*/
+
+/*
+let num1 = Math.floor(Math.random()*10)+1;
+let num2 = Math.floor(Math.random()*10)+1;
+let resultado = num1 - num2;
+
+console.log(`El resultado es: ${resultado}`);
+*/
+
+/*
+let edad = prompt("Ingresa tu edad: ");
+
+if (edad >= 18) {
+    console.log("Eres mayor de edad");
+} else if (edad <= 18) {
+    console.log("Eres menor de edad");
+}
+ */
+
+/*
+let numero = 0;
+
+numero = prompt("Ingresa un número entero");
+
+if (numero > 0) {
+    console.log(`${numero} es positivo`);
+} else if (numero < 0) {
+    console.log(`${numero} es negativo`);
+} else {
+    console.log(`${numero} es cero`);
+}
+*/
+
+/*
+let numero = 1;
+
+while (numero <= 10) {
+    console.log(numero);
+    numero++;
+}
+*/
+
+/*
+let nota = parseInt(prompt("Ingresa tu nota: "));
+
+if (nota >= 7) {
+    console.log("Aprobado");
+}   else if (nota <= 7) {
+    console.log("Reprobado");
+}
+*/
+
+/*
+let numero = Math.random()*10000;
+console.log(numero);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
