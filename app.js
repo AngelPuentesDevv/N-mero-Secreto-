@@ -27,5 +27,9 @@ while (numeroSecreto != numeroUsuario) {
     //Se incrementa el contador cuando no se acierta el número
     intentos++;
     palabraVeces = "veces";
+    if (intentos >= 5) {
+      alert(`Llegaste al número máximo de intentos: ${intentos}`);
+      break;
+    }
   }
 }
